@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_2"
+    tools:context="com.example.birdsGameEx2.Activities.MenuActivity">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="serif"
+            android:text="@string/select_speed"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/layoutSlowFast"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/MENU_BTN_Slow"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="@string/slow"
+                android:textColor="@color/material_dynamic_neutral40"
+                android:textSize="16sp"
+                app:backgroundTint="#FFF9C4"
+                app:strokeColor="@color/material_dynamic_neutral50" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/MENU_BTN_Fast"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:text="@string/fast"
+                android:textColor="@color/material_dynamic_neutral40"
+                android:textSize="16sp"
+                app:backgroundTint="#F0F4C3"
+                app:strokeColor="@color/material_dynamic_neutral50" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="serif"
+            android:text="@string/select_mode"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/layoutSensorsButtons"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/MENU_BTN_BUTTONS"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="@string/buttons"
+                android:textColor="@color/material_dynamic_neutral40"
+                android:textSize="16sp"
+                app:backgroundTint="#FFF9C4"
+                app:strokeColor="@color/material_dynamic_neutral50" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/MENU_BTN_SENSORS"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:text="@string/sensors"
+                android:textColor="@color/material_dynamic_neutral40"
+                android:textSize="16sp"
+                app:backgroundTint="#F0F4C3"
+                app:strokeColor="@color/material_dynamic_neutral50" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutStart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/MENU_BTN_START"
+                style="@style/Widget.Material3.Button.ElevatedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:textSize="15sp"
+                app:backgroundTint="@color/green_100" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/MENU_BTN_GoToRecords"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:backgroundTint="@color/green_100"
+            android:text="@string/go_to_records"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

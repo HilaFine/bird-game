@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/purple_700"
-    tools:context=".MainActivity">
+    android:background="@color/purple_200"
+    tools:context="com.example.birdsGameEx2.Activities.MainActivity">
 
      <androidx.appcompat.widget.AppCompatImageView
          android:id="@+id/game_background"
@@ -51,24 +51,19 @@
 
          <com.google.android.material.imageview.ShapeableImageView
              android:id="@+id/cat_row0_col0"
-             android:layout_width="0dp"
-             android:layout_height="match_parent"
-             android:layout_weight="1"
-             app:srcCompat="@drawable/happy"/>
-
+             style="@style/cat"/>
          <com.google.android.material.imageview.ShapeableImageView
              android:id="@+id/cat_row0_col1"
-             android:layout_width="0dp"
-             android:layout_height="match_parent"
-             android:layout_weight="1"
-             app:srcCompat="@drawable/happy" />
-
+             style="@style/cat" />
          <com.google.android.material.imageview.ShapeableImageView
              android:id="@+id/cat_row0_col2"
-             android:layout_width="0dp"
-             android:layout_height="match_parent"
-             android:layout_weight="1"
-             app:srcCompat="@drawable/happy" />
+             style="@style/cat" />
+         <com.google.android.material.imageview.ShapeableImageView
+             android:id="@+id/cat_row0_col3"
+             style="@style/cat" />
+         <com.google.android.material.imageview.ShapeableImageView
+             android:id="@+id/cat_row0_col4"
+             style="@style/cat" />
      </LinearLayout>
 
     <LinearLayout
@@ -80,22 +75,19 @@
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/cat_row1_col0"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/happy" />
+            style="@style/cat" />
          <com.google.android.material.imageview.ShapeableImageView
              android:id="@+id/cat_row1_col1"
-             android:layout_width="0dp"
-             android:layout_height="match_parent"
-             android:layout_weight="1"
-             app:srcCompat="@drawable/happy"/>
+             style="@style/cat"/>
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/cat_row1_col2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/happy"/>
+            style="@style/cat"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cat_row1_col3"
+            style="@style/cat"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cat_row1_col4"
+            style="@style/cat"/>
     </LinearLayout>
       <LinearLayout
           android:id="@+id/cats_row2"
@@ -105,22 +97,19 @@
           android:layout_below="@+id/cats_row1">
       <com.google.android.material.imageview.ShapeableImageView
           android:id="@+id/cat_row2_col0"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_weight="1"
-          app:srcCompat="@drawable/happy"/>
+          style="@style/cat"/>
       <com.google.android.material.imageview.ShapeableImageView
           android:id="@+id/cat_row2_col1"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_weight="1"
-          app:srcCompat="@drawable/happy"  />
+          style="@style/cat"  />
       <com.google.android.material.imageview.ShapeableImageView
           android:id="@+id/cat_row2_col2"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_weight="1"
-          app:srcCompat="@drawable/happy"    />
+          style="@style/cat"   />
+          <com.google.android.material.imageview.ShapeableImageView
+              android:id="@+id/cat_row2_col3"
+              style="@style/cat"   />
+          <com.google.android.material.imageview.ShapeableImageView
+              android:id="@+id/cat_row2_col4"
+              style="@style/cat"   />
       </LinearLayout>
 
         <LinearLayout
@@ -131,22 +120,19 @@
             android:layout_below="@+id/cats_row2">
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/cat_row3_col0"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:src="@drawable/happy" />
+                style="@style/cat"  />
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/cat_row3_col1"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:src="@drawable/happy" />
+                style="@style/cat"  />
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/cat_row3_col2"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:src="@drawable/happy" />
+                style="@style/cat" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/cat_row3_col3"
+                style="@style/cat" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/cat_row3_col4"
+                style="@style/cat" />
         </LinearLayout>
         <LinearLayout
             android:id="@+id/cats_row4"
@@ -156,22 +142,19 @@
             android:layout_below="@+id/cats_row3">
            <com.google.android.material.imageview.ShapeableImageView
                android:id="@+id/cat_row4_col0"
-               android:layout_width="0dp"
-               android:layout_height="match_parent"
-               android:layout_weight="1"
-               app:srcCompat="@drawable/happy"/>
+               style="@style/cat"/>
            <com.google.android.material.imageview.ShapeableImageView
                android:id="@+id/cat_row4_col1"
-               android:layout_width="0dp"
-               android:layout_height="match_parent"
-               android:layout_weight="1"
-               app:srcCompat="@drawable/happy"/>
+               style="@style/cat"/>
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/cat_row4_col2"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/happy"/>
+                style="@style/cat"/>
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/cat_row4_col3"
+                style="@style/cat"/>
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/cat_row4_col4"
+                style="@style/cat"/>
         </LinearLayout>
         <LinearLayout
             android:id="@+id/cats_row5"
@@ -181,22 +164,19 @@
             android:layout_below="@+id/cats_row4">
              <com.google.android.material.imageview.ShapeableImageView
                  android:id="@+id/cat_row5_col0"
-                 android:layout_width="0dp"
-                 android:layout_height="match_parent"
-                 android:layout_weight="1"
-                 app:srcCompat="@drawable/happy"/>
+                 style="@style/cat"/>
              <com.google.android.material.imageview.ShapeableImageView
                  android:id="@+id/cat_row5_col1"
-                 android:layout_width="0dp"
-                 android:layout_height="match_parent"
-                 android:layout_weight="1"
-                 app:srcCompat="@drawable/happy"/>
+                 style="@style/cat"/>
              <com.google.android.material.imageview.ShapeableImageView
                  android:id="@+id/cat_row5_col2"
-                 android:layout_width="0dp"
-                 android:layout_height="match_parent"
-                 android:layout_weight="1"
-                 app:srcCompat="@drawable/happy"/>
+                 style="@style/cat"/>
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/cat_row5_col3"
+                style="@style/cat"/>
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/cat_row5_col4"
+                style="@style/cat"/>
         </LinearLayout>
     <LinearLayout
         android:id="@+id/cats_row6"
@@ -206,22 +186,19 @@
         android:layout_below="@+id/cats_row5">
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/cat_row6_col0"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/happy"/>
+            style="@style/cat"/>
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/cat_row6_col1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/happy"/>
+            style="@style/cat"/>
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/cat_row6_col2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/happy"/>
+            style="@style/cat"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cat_row6_col3"
+            style="@style/cat"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cat_row6_col4"
+            style="@style/cat"/>
     </LinearLayout>
 
     <LinearLayout
@@ -233,22 +210,19 @@
         android:layout_marginBottom="10dp">
        <com.google.android.material.imageview.ShapeableImageView
            android:id="@+id/bird0"
-           android:layout_width="0dp"
-           android:layout_height="match_parent"
-           android:layout_weight="1"
-           app:srcCompat="@drawable/bird2"/>
+           style="@style/bird"/>
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/bird1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/bird2"/>
+            style="@style/bird"/>
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/bird2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/bird2"/>
+            style="@style/bird"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/bird3"
+            style="@style/bird"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/bird4"
+            style="@style/bird"/>
     </LinearLayout>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/game_fabRight"
@@ -275,7 +249,18 @@
         android:clickable="true"
         android:contentDescription="@string/app_name"
         android:src="@drawable/left"/>
-
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_score"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:text="@string/_000"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
         
         
 </RelativeLayout>
